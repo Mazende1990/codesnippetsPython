@@ -58,3 +58,33 @@ mode = "comment"
 [[source]]
 name = "default"
 default = true
+
+[[plugin]]
+name = "bandit"
+version = "1.7.9"
+
+[[plugin]]
+name = "checkov"
+
+[[plugin]]
+name = "golangci-lint"
+
+[[plugin]]
+name = "radarlint-python"
+
+[[plugin]]
+name = "ripgrep"
+
+[[plugin]]
+name = "ruff"
+version = "0.5.3"
+
+[[plugin]]
+name = "trivy"
+drivers = [
+  "config",
+  "fs-vuln",
+]
+
+[[plugin]]
+name = "trufflehog"
